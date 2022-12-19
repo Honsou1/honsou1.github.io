@@ -74,6 +74,18 @@
   		width: 100%;
       }
 
+      .bannerContainer {
+  		position: relative;
+  		text-align: center;
+  		color: white;
+	  }
+
+	  .bannerText {
+	  	position: absolute;
+	  	bottom: 8px;
+	  	left: 16px;
+	  }
+
     </style>
     
   </head>
@@ -115,13 +127,10 @@
 
   <section>
     <div>
-      <div>
+      <div class="bannerContainer">
       	<img class="banner" src="assets/projects/Banner.png">
-          <div class="py-5 text-center container">
-              <h1 class="fw-light">Julien Haigron - System Programmer</h1>
-        	  <p class="lead text-muted">Hello and welcome to my portfolio. You will find here a list of the most recent projects I worked on. Enjoy!</p>
-          </div>
-    	</img>
+      	<div class="bannerText"><h1 class="fw-light">Julien Haigron - System Programmer</h1></div>
+      	<div class="bannerText"><p class="lead text-muted">Hello and welcome to my portfolio. You will find here a list of the most recent projects I worked on. Enjoy!</p></div>
       </div>
     </div>
   </section>
